@@ -1,0 +1,358 @@
+.request{
+    font-weight: 650;
+    left: 200px;
+    top: 150px;
+    position: absolute;
+}
+.card .btn {
+    transition: 0.5s;
+    opacity: 0%;
+    height: 35px;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+p[class="request"]{
+    opacity: 50%;
+    top: 165px;
+    left: 650px;
+}
+p[class*="similar"]{
+    padding: 0px 10px;
+    max-width: max-content;
+    font-size: 14px;
+    height: 27px;
+    cursor: pointer;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    background-color: rgba(44, 44, 44, 0.12);
+    transition: 0.5s;
+}
+p[class*="other"]{
+    padding: 0 10px;
+    max-width: max-content;
+}
+p[class*="similar"]:hover{
+    background-color: rgba(44, 44, 44, 0.2);
+}
+input[name="from"]{
+    height: 30px;
+    background-color: rgba(44, 44, 44, 0.12);
+    border: none;
+    border-radius: 5px;
+}
+input[name="to"]{
+    height: 30px;
+    background-color: rgba(44, 44, 44, 0.12);
+    border: none;
+    border-radius: 5px;
+}
+.pages p{
+    margin-top: 6px;
+}
+.pages div{
+    cursor: pointer;
+}
+.pages{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+.one{ 
+    cursor: default;
+    color: white;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgb(202, 39, 202);
+    width: 37px;
+    height: 37px;
+    margin-left: 200px;
+    display: inline-block;
+}
+.two{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.two:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+}
+.three{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.three:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+}
+.four{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.four:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+}
+.five{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}  
+.five:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+} 
+.six{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.six:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+}
+.seven{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background-color: rgba(48, 46, 48, 0);
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.seven:hover{
+    background-color: rgba(48, 46, 48, 0.1);
+}
+
+.dots{
+    border-radius: 19px;
+    text-align: center;
+    background: none;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+}
+.next{
+    transition: 0.7s;
+    border-radius: 19px;
+    text-align: center;
+    background: none;
+    width: 200px;
+    height: 37px;
+    display: inline-block;
+}
+.next:hover{
+    color: rgb(202, 39, 202);
+}
+
+.card:hover{
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);;
+}
+
+p[class*="other"]{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 27px;
+    background-color: rgba(44, 44, 44, 0.12);
+    transition: 0.5s;
+    margin-left: 30px;
+    display: inline-block;
+}
+p[class*="other"]:hover{
+    background-color: rgba(44, 44, 44, 0.2);
+}
+p[style*="font-size: 20px;"]{
+    color: rgb(202, 39, 202);
+}
+b[style*="font-size: 14px;"]{
+    color: black;
+}
+
+.card{
+    margin-top: -90px;
+}
+.similar-1{
+    left: 200px;
+    top: 220px;
+    width: 50px;
+    
+}
+.similar-2{
+    left: 260px;
+    top: 220px;
+    width: 260px;
+    
+}
+.similar-3{
+    left: 530px;
+    top: 220px;
+    width: 230px;
+    
+}
+.similar-4{
+    left: 770px;
+    top: 220px;
+    width: 170px;
+    
+}
+.similar-5{
+    left: 950px;
+    top: 220px;
+    width: 170px;
+    
+}
+.similar-6{
+    left: 1130px;
+    top: 220px;
+    width: 120px;
+}
+.similar-7{
+    left: 1260px;
+    top: 220px;
+    width: 280px;
+    
+}
+.similar-8{
+    left: 1550px;
+    top: 220px;
+    width: 50px;
+    
+}
+.filters{
+    position: absolute;
+    left: 190px;
+    top: 280px;
+}
+.dropdown-2{
+    margin-top: -36px;
+    margin-left: 100px;
+}
+.dropdown-3{
+    margin-top: -36px;
+    margin-left: 290px;
+}
+.dropdown-4{
+    margin-top: -36px;
+    margin-left: 450px;
+}
+.dropdown-5{
+    margin-top: -36px;
+    margin-left: 540px;
+}
+.dropdown-6{
+    margin-top: -36px;
+    margin-left: 660px;
+}
+.dropdown-7{
+    margin-top: -36px;
+    margin-left: 760px;
+}
+.dropdown-8{
+    margin-top: -36px;
+    margin-left: 850px;
+}
+.dropdown-menu{
+    width: 296px;
+}
+.contain{
+    height: 585px;
+    background: rgb(74, 19, 119);
+}
+  .footer .col{
+    width: 350px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-weight: normal;
+
+    
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li{
+    opacity: 60%;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 0px 5px 0px;
+    font-weight:400;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  
+  .footer p{
+    left: 600px;
+    top: 450px;
+    position: absolute;
+    opacity: 60%;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 5px 0px 5px 0px;
+    font-weight:400;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    opacity: 100%;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  } 

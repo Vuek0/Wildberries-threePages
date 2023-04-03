@@ -1,0 +1,182 @@
+.navig p{
+    display: inline-block;
+    cursor: pointer;
+}
+.navbar-brand{
+    margin-left: 280px;
+}
+.name{
+    top: 190px;
+    left: 200px;
+    position: absolute;
+    
+}
+.price-history{
+    position: absolute;
+    display: inline-block;
+    top: 32%;
+    left: 69.5%;
+}
+.hr{
+    margin-top: -40px;
+}
+.price{
+    display: inline-block;
+    z-index: 2;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    width: 25%;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    opacity: 0;
+}
+hr:hover .price{
+    opacity: 1;
+}
+.grafik{
+    margin-top: -5%;
+    position: relative;
+    width: 100%;
+    background-color: rgba(218, 38, 194, 0.05);
+    height: 30px;
+}
+.about{
+    width: 80%;
+    left: 200px;
+    top: 230px;
+    position: absolute;
+}
+.specifications a{
+    transition: 0.3s;
+    color: black;
+}
+.specifications a:hover{
+    color: rgb(202, 39, 202);
+}
+.questions{
+    cursor: pointer;
+    color: gray;
+}
+.questions:hover{
+    color: black;
+}
+.card-1{
+    margin-top: -200px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    left: 1180px;
+    top: 200px;
+    position: absolute;
+}
+.card-2{
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin-left: 200px;
+}
+.card-3{
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+.other-1{
+    width: 50px;
+}
+.other-2{
+    width: 260px;
+}
+.other-3{
+    width: 230px;  
+}
+.other-4{
+    width: 170px;  
+}
+.other-5{
+    width: 170px; 
+}
+.other-6{
+    width: 120px;
+}
+.other-7{
+    width: 280px;
+}
+.other-8{
+    
+    width: 50px;
+}
+
+p[class*="other"]{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    height: 27px;
+    background-color: rgba(44, 44, 44, 0.12);
+    transition: 0.5s;
+    margin-left: 30px;
+    display: inline-block;
+}
+p[class*="other"]:hover{
+    background-color: rgba(44, 44, 44, 0.2);
+}
+.main{
+    margin-top: -160px;
+    position: relative;
+    margin-left: 200px;
+}
+img[alt="logo"]{
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline;
+}
+img[alt="rev"]{
+    border-radius: 5px;
+    margin-left: 20px;
+}
+img[alt="smallest"]{
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+img[alt="smallest"]:hover{
+    border: 1px solid rgb(202, 39, 202);
+}
+.xarakt{
+    cursor: pointer;
+}
+.xarakt:hover{
+    color: rgb(202, 39, 202);
+}
+.subscription{
+    top: 1083px;
+    position: absolute;
+    display: inline-block;
+}
+.subscription-1{
+    left: 644px;
+    top: 1120px;
+    position: absolute;
+}
+.subscription-2{
+    cursor: pointer;
+    left: 644px;
+    top: 1230px;
+    position: absolute;
+}
+.subscription-2:hover{
+    color: rgb(202, 39, 202);
+}
+.about-1{
+    width: 80%;
+}
+.about-1 p{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.navig{
+    left: 200px;
+    top: 150px;
+    position: absolute;
+}
